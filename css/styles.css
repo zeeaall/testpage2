@@ -5,6 +5,10 @@ body {
   color: #40514E;
 }
 
+p {
+  line-height: 2;
+}
+
 h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
@@ -40,18 +44,6 @@ hr {
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
-}
-
- p {
-   line-height: 2;
- }
-
-.subtitle {
-  font-weight: normal;
-}
-
-.contact-message {
-  margin: 40px auto 60px;
 }
 
 .top-container {
@@ -106,12 +98,6 @@ hr {
   margin-left: 30px;
 }
 
-.copyright {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
 .btn {
   background: #11CDD4;
   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
@@ -137,4 +123,18 @@ hr {
   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
   text-decoration: none;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
